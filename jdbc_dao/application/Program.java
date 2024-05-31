@@ -6,6 +6,8 @@ import model.entities.Department;
 import model.entities.Seller;
 import src.db.DB;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class Program {
@@ -30,6 +32,11 @@ public class Program {
         for (Seller obj : list) {
             System.out.println(obj);
         }
+
+        System.out.println("\n\n===== TEST 4: seller insert =====");
+        Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", LocalDate.parse("22/11/2001", DateTimeFormatter.ofPattern("dd/MM/yyyy")), 4000.0, department);
+        sellerDao.insert(newSeller);
+        System.out.println("Inserted! New id: " + newSeller.getId());
 
         DB.closeConnection();
     }

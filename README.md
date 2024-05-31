@@ -21,7 +21,7 @@
 
 1. At the Terminal, type:
 ``````
-~ % open .zshrc
+~% open .zshrc
 ``````
 
 ###
