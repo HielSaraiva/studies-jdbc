@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramSeller {
 
     public static void main(String[] args) {
 
@@ -52,8 +52,6 @@ public class Program {
         int id = sc.nextInt();
         sellerDao.deleteById(id);
         System.out.println("Deleted Completed!");
-
-        System.out.println("\n\n===== TEST 7: seller findAll =====");
 
         sc.close();
         DB.closeConnection();

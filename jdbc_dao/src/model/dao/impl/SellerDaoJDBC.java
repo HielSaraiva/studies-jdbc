@@ -5,7 +5,6 @@ import src.model.entities.Department;
 import src.model.entities.Seller;
 import src.db.DB;
 import src.db.DbException;
-import src.model.entities.Seller;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
