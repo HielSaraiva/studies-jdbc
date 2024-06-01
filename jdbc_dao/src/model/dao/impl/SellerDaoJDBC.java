@@ -1,10 +1,11 @@
-package model.dao.impl;
+package src.model.dao.impl;
 
-import model.dao.SellerDao;
-import model.entities.Department;
-import model.entities.Seller;
+import src.model.dao.SellerDao;
+import src.model.entities.Department;
+import src.model.entities.Seller;
 import src.db.DB;
 import src.db.DbException;
+import src.model.entities.Seller;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
