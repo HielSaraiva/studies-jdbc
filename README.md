@@ -27,6 +27,10 @@
 
 <img src="/assets/imgs/overview.png" alt="FOLDERS" width="600">
 
+## Tips & Tricks
+
+- Use PreparedStatement instead of Statement to avoid SQL Injection.
+
 ## Installations of the tools (MacOS)
 
 * [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
