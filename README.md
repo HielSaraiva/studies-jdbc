@@ -29,7 +29,7 @@
 
 ## Tips & Tricks
 
-- Use PreparedStatement instead of Statement to avoid SQL Injection.
+- Use PreparedStatement and its Set methods instead of Statement to avoid SQL Injection.
 
 ## Installations of the tools (MacOS)
 
