@@ -41,16 +41,14 @@
 
 1. At the Terminal, type:
 
-``````
-~% open .zshrc
-``````
+        open .zshrc
+
 
 2. At the new zshrc tab, type:
 
-``````
-# MySQL Path.
-export PATH=${PATH}:/usr/local/mysql-8.0.37-macos14-arm64/bin
-``````
+        # MySQL Path.
+        export PATH=${PATH}:/usr/local/mysql-8.0.37-macos14-arm64/bin
+
 
 Now, save and close the tab.
 
