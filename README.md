@@ -42,21 +42,21 @@
 
 ```bash
 📦 studies-jdbc
-┣ assets          # Some images
-┣ jdbc_dao        # Implementing some advanced methods
-┣ jdbc_v1         # Connecting to MySQL database using JDBC
-┣ jdbc_v2         # Recovering data from MySQL database
-┣ jdbc_v3         # Inserting data at MySQL database
-┣ jdbc_v4         # Updating data from MySQL database
-┣ jdbc_v5         # Deleting data from MySQL database
-┣ jdbc_v6         # Carrying out transactions using JDBC
+┣ 📂 assets          # Some images
+┣ 📂 jdbc_dao        # Implementing some advanced methods
+┣ 📂 jdbc_v1         # Connecting to MySQL database using JDBC
+┣ 📂 jdbc_v2         # Recovering data from MySQL database
+┣ 📂 jdbc_v3         # Inserting data at MySQL database
+┣ 📂 jdbc_v4         # Updating data from MySQL database
+┣ 📂 jdbc_v5         # Deleting data from MySQL database
+┣ 📂 jdbc_v6         # Carrying out transactions using JDBC
 ```
 
 ---
 
 ## Tips & Tricks
 
-- Use PreparedStatement and its Set methods instead of Statement to avoid SQL Injection.
+* Use PreparedStatement and its Set methods instead of Statement to avoid SQL Injection.
 
 ---
 
